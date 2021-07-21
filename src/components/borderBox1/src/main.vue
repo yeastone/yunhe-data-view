@@ -10,8 +10,8 @@
       :style="{
         'border-color': cornerColor,
         'border-width': borderWidth,
-        width: width,
-        height: height
+        width: cornerWidth,
+        height: cornerHeight
       }"
     ></div>
     <div class="border-box-content">
@@ -39,11 +39,11 @@ export default {
       type: String,
       default: '2px'
     },
-    width: {
+    cornerWidth: {
       type: String,
       default: '16px'
     },
-    height: {
+    cornerHeight: {
       type: String,
       default: '16px'
     },
@@ -54,7 +54,7 @@ export default {
   },
   data () {
     return {
-      ref: 'border-box-1'
+      ref: 'yh-border-box-1'
     }
   },
   methods: {

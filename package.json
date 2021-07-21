@@ -1,6 +1,6 @@
 {
   "name": "yunhe-data-view",
-  "version": "0.0.20",
+  "version": "0.0.24",
   "description": "Yunhe FE Vue large screen data display component library",
   "main": "lib/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.5.5",
+    "echarts": "^5.1.2",
     "rollup": "^2.53.1",
     "vue-count-to": "^1.0.13"
   },

@@ -34,7 +34,7 @@ export default {
   },
   data () {
     return {
-    ref: 'progress-bar-1',
+    ref: 'yh-progress-bar-1',
       leftNow: 0,
       leftTarget: 0,
       rightNow: 0,

@@ -1,0 +1,48 @@
+.yh-drop-box-1 {
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+  height: 52px;
+  width: 52px;
+  margin: 0px 32px 8px 20px;
+  background: rgba(5, 17, 46, 0.35);
+  border: 1px solid rgba(16, 143, 255, 0.35);
+  box-shadow: inset 0 0 18px 5px rgba(0, 100, 184, 0.35);
+  border-radius: 1px;
+  position: relative;
+}
+.yh-drop-box-1 .name i {
+  color: #fff;
+  line-height: 50px;
+  font-size: 32px;
+}
+.yh-drop-box-1 .drop-menu {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  font-size: 14px;
+  background-color: #05112e;
+  border: solid 1px #108fff;
+  line-height: 32px;
+}
+.yh-drop-box-1 .drop-menu .drop-menu-item {
+  text-align: left;
+  white-space: nowrap;
+  padding: 0 10px;
+  color: #fff;
+}
+.yh-drop-box-1 .drop-menu .drop-menu-item i {
+  display: inline-block;
+  margin-right: 10px;
+}
+.yh-drop-box-1 .drop-menu .drop-menu-item:hover {
+  background-color: #108fff;
+  cursor: pointer;
+}
+.yh-drop-box-1:hover {
+  border: 1px solid #108fff;
+  box-shadow: inset 0 0 18px 5px rgba(0, 100, 184, 0.65);
+}
+.yh-drop-box-1:hover .name i {
+  color: #108fff;
+}
