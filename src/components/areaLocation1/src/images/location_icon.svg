@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="41px" viewBox="0 0 38 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>定位</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28.1666667,27.0541165 C27.5633333,26.974672 27.01,27.3994869 26.9305556,28.0028202 C26.8564815,28.5665239 27.2235185,29.0943017 27.7777778,29.220598 C30.9444444,29.8318943 32.8333333,30.8317091 32.8333333,31.3318943 C32.8333333,31.4428202 32.6668519,31.6131906 32.2222222,31.9428202 C31.3888889,32.4372646 30.4944444,32.8115239 29.5594444,33.0539313 C23.3111111,34.5354128 16.8055556,34.5354128 10.5592593,33.0539313 C9.6237037,32.809672 8.72666667,32.4357831 7.89444444,31.9428202 C7.39462963,31.609672 7.22777778,31.4428202 7.22777778,31.3318943 C7.22777778,30.8872646 8.95,29.9430054 11.8390741,29.3318943 C12.4164815,29.2267091 12.7998148,28.6735609 12.6948148,28.0959683 C12.6887037,28.0630054 12.6812963,28.030598 12.6724074,27.9985609 C12.61,27.4548572 12.1187037,27.0648572 11.575,27.1272646 C11.5138889,27.1343017 11.4535185,27.1468943 11.3944444,27.1652276 C7.44462963,27.9985609 5,29.3318943 5,31.3318943 C5,34.4428202 11.6666667,36.3318943 20,36.3318943 C28.3333333,36.3318943 35,34.4428202 35,31.3318943 C35,29.2763387 32.3890741,27.8874498 28.1666667,27.0541165 L28.1666667,27.0541165 Z M11.5888889,18.4948572 L19.1018519,30.4967091 C19.3494444,30.9928202 19.952037,31.1941165 20.4481481,30.9468943 C20.642963,30.8494869 20.8011111,30.6915239 20.8981481,30.4967091 L28.4111111,18.4948572 L28.3927778,18.4948572 C31.4155556,13.8591165 30.107963,7.65078315 25.4724074,4.62800537 C20.8368519,1.60522759 14.6285185,2.912635 11.6055556,7.54819056 C9.43648148,10.874672 9.43648148,15.1681906 11.6055556,18.4948572 L11.5888889,18.4948572 Z M20,8.44856093 C22.5231481,8.44856093 24.5685185,10.4939313 24.5685185,13.0170794 C24.5685185,15.5402276 22.5231481,17.585598 20,17.585598 C17.4768519,17.585598 15.4314815,15.5402276 15.4314815,13.0170794 C15.4314815,10.4939313 17.4768519,8.44856093 20,8.44856093 L20,8.44856093 Z" id="path-1"></path>
+        <filter x="-20.0%" y="-18.0%" width="140.0%" height="136.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0186660999   0 0 0 0 0.267274101   0 0 0 0 0.409873188  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-18.3%" y="-16.5%" width="136.7%" height="133.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1重点场所治理平台-场所总览" transform="translate(-44.000000, -47.000000)">
+            <g id="定位" transform="translate(43.000000, 48.000000)">
+                <g id="Fill-1">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#00DEFE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

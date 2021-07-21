@@ -1,6 +1,7 @@
 /**
  * IMPORT COMPONENTS
  */
+import areaLocation1 from './components/areaLocation1/index';
 import borderBox1 from './components/borderBox1/index'
 import chartContent from './components/chartContent/index'
 import dropBox1 from './components/dropBox1/index'
@@ -23,6 +24,9 @@ import titleHeader1 from './components/titleHeader1/index'
  * USE COMPONENTS
  */
 export default function (Vue) {
+
+  Vue.use(areaLocation1)
+  
   Vue.use(borderBox1)
   Vue.use(chartContent)
   Vue.use(dropBox1)
