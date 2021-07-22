@@ -29,7 +29,7 @@
     </div>
 </template>
 <script>
-import autoResize from '../../..mixin/autoResize'
+import autoResize from '../../../mixin/autoResize'
 export default {
   name: 'YhBorderBox2',
   mixins: [autoResize],
@@ -49,14 +49,15 @@ export default {
 <style lang="less">
 .yh-border-box-2 {
     position: relative;
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
     .yh-border-svg-container {
-        position: absolute;
+         position: absolute;
         width: 100%;
         height: 100%;
         top: 0px;
         left: 0px;
     }
 }
+
 </style>

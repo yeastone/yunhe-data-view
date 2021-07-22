@@ -29,7 +29,7 @@
     </div>
 </template>
 <script>
-import autoResize from '../../..mixin/autoResize'
+import autoResize from '../../../mixin/autoResize'
 export default {
   name: 'YhBorderBox2',
   mixins: [autoResize],
