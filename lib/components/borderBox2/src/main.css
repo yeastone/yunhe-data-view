@@ -10,3 +10,8 @@
   top: 0px;
   left: 0px;
 }
+.yh-border-box-2 .border-box-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

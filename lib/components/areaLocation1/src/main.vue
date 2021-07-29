@@ -6,7 +6,7 @@
             <img src="./images/location_icon.svg" class="location-icon">
                 <el-cascader
                 class="select-district location-name"
-                ref="selectDistrict"
+                ref="yh-area-location-1-cascader"
                 placeholder="加载中..."
                 v-model="selectDistrict"
                 :options="areaOptions"
@@ -48,7 +48,7 @@ export default {
   methods: {
     districtChange (value) {
       this.$emit('districtChange', value)
-      this.$refs[this.ref].dropDownVisible = false
+      this.$refs['yh-area-location-1-cascader'].dropDownVisible = false
     }
   }
 }

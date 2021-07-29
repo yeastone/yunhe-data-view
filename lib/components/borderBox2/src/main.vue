@@ -1,9 +1,9 @@
 <template>
-    <div class="yh-border-box-2" :ref="ref">
+     <div class="yh-border-box-2" :ref="ref">
         <svg  class="yh-border-svg-container" :width="width" :height="height" >
             <defs>
-                <polygon id="yh-border-box-2-path" :points="`13.5 0 ${width - 15} 0 ${width} 16.5 ${width} ${height - 13.5} ${width - 13.5} ${height} 13.5 ${height} 0 ${height - 13.5} 0 13.5`"></polygon>
-                <filter x="-2.6%" y="-3.9%" width="105.1%" height="107.7%" filterUnits="objectBoundingBox" id="yh-border-box-2-filter">
+                <polygon :id="pathId" :points="`13.5 0 ${width - 15} 0 ${width} 16.5 ${width} ${height - 13.5} ${width - 13.5} ${height} 13.5 ${height} 0 ${height - 13.5} 0 13.5`"></polygon>
+                <filter x="-2.6%" y="-3.9%" width="105.1%" height="107.7%" filterUnits="objectBoundingBox" :id="filterId">
                     <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
                     <feGaussianBlur stdDeviation="9" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
                     <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
@@ -13,8 +13,8 @@
             </defs>
             <g id="yh-border-box-2-decoration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="rect" opacity="1">
-                    <use :fill="backgroundColor" fill-rule="evenodd" xlink:href="#yh-border-box-2-path"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#yh-border-box-2-filter)" xlink:href="#yh-border-box-2-path"></use>
+                    <use :fill="backgroundColor" fill-rule="evenodd" v-bind:xlink:href="`#${pathId}`"></use>
+                    <use fill="black" fill-opacity="1" :filter="`url(#${filterId})`" v-bind:xlink:href="`#${pathId}`"></use>
                     <path stroke="#108FFF" stroke-width="1" :d="`M${width - 15},0.5 L${width - 0.5},16.5 L${width - 0.5},${height - 14} L${width - 14},${height - 0.5} L13.5,${height - 0.5} L0.5,${height - 14} L0.5,14 L14,0.5 L${width - 15},0.5 Z`" stroke-linejoin="square"></path>
                 </g>
                 <polygon id="矩形" fill="#00DEFE" :points="`0 ${height - 10} 10 ${height} 0 ${height}`"></polygon>
@@ -30,6 +30,7 @@
 </template>
 <script>
 import autoResize from '../../../mixin/autoResize'
+import { uuid } from '../../../util/index'
 export default {
   name: 'YhBorderBox2',
   mixins: [autoResize],
@@ -40,8 +41,11 @@ export default {
     }
   },
   data () {
+    const id = uuid()
     return {
-      ref: 'yh-border-box-2'
+      ref: 'yh-border-box-2',
+      pathId: `yh-border-box-2-path-${id}`,
+      filterId: `yh-border-box-2-filter-${id}`
     }
   }
 }
