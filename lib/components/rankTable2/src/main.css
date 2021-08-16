@@ -1,0 +1,71 @@
+.yh-rank-table-2 {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.yh-rank-table-2 .yh-rank-table-2-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  border-spacing: 0;
+}
+.yh-rank-table-2 .yh-rank-table-2-content thead {
+  background: rgba(15, 84, 98, 0.52);
+}
+.yh-rank-table-2 .yh-rank-table-2-content thead th {
+  line-height: 32px;
+  font-size: 14px;
+  color: #B8C8EE;
+  letter-spacing: 0;
+}
+.yh-rank-table-2 .yh-rank-table-2-content tbody .index {
+  font-weight: bold;
+}
+.yh-rank-table-2 .yh-rank-table-2-content tbody .index .rank-icon {
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  vertical-align: middle;
+}
+.yh-rank-table-2 .yh-rank-table-2-content tbody .index,
+.yh-rank-table-2 .yh-rank-table-2-content tbody .name {
+  color: #0DFFFD;
+  font-size: 14px;
+}
+.yh-rank-table-2 .yh-rank-table-2-content tbody .rate {
+  font-size: 16px;
+  color: #B8C8EE;
+  padding-right: 20px;
+}
+.yh-rank-table-2 .yh-rank-table-2-content tbody tr {
+  height: 36px;
+  background: rgba(32, 61, 76, 0.36);
+  box-shadow: inset 0 -1px 0 0 #2A8993;
+}
+.yh-rank-table-2 .yh-rank-table-2-content .index {
+  width: 60px;
+}
+.yh-rank-table-2 .yh-rank-table-2-content .rate {
+  width: 100px;
+}
+.yh-rank-table-2::-webkit-scrollbar {
+  cursor: pointer;
+  width: 6px;
+  height: 4px;
+}
+.yh-rank-table-2::-webkit-scrollbar-thumb {
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 222, 254, 0.5);
+}
+.yh-rank-table-2::-webkit-scrollbar-thumb:hover {
+  background: #00defe;
+}
+.yh-rank-table-2::-webkit-scrollbar-track {
+  position: relative;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 222, 254, 0.2);
+}

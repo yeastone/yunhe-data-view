@@ -1,0 +1,26 @@
+.yh-radio-button-3 .radio-item {
+  cursor: pointer;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  font-size: 20px;
+  color: #B8C8EE;
+  margin-left: -20px;
+}
+.yh-radio-button-3 .radio-item span {
+  line-height: 42px;
+  font-size: 20px;
+  color: #B8C8EE;
+}
+.yh-radio-button-3 .radio-item:nth-child(even) {
+  transform: scaleY(-1);
+}
+.yh-radio-button-3 .radio-item:nth-child(even) span {
+  display: inline-block;
+  transform: scaleY(-1);
+}
+.yh-radio-button-3 .active {
+  color: #fff;
+  font-weight: bold;
+  background: transparent url('../assets/tab_active.png') no-repeat;
+}

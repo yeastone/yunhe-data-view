@@ -1,0 +1,17 @@
+.yh-border-box-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.yh-border-box-3 .yh-border-svg-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.yh-border-box-3 .border-box-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

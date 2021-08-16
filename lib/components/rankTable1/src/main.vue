@@ -28,7 +28,8 @@ export default {
     unit: {
       type: String,
       default: ''
-    }
+    },
+    max: Number
   },
   data () {
     return {
@@ -49,7 +50,7 @@ export default {
       if (this.tableData.length) {
         const list = [...this.tableData]
         list.sort((a, b) => b.value - a.value)
-        const max = list[0].value
+        const max = this.max ? this.max : list[0].value
         list.map(item => {
           item.width = (item.value / max * 100).toFixed(2) + '%'
         })

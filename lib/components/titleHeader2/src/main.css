@@ -1,0 +1,25 @@
+.yh-title-header-2 {
+  position: relative;
+  width: 100%;
+  height: 49px;
+  text-align: left;
+  vertical-align: baseline;
+}
+.yh-title-header-2 .yh-title-header-svg-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.yh-title-header-2 .title-text {
+  vertical-align: top;
+  margin-left: 7px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 49px;
+  letter-spacing: 0px;
+  margin-left: 20px;
+  color: #ffffff;
+}

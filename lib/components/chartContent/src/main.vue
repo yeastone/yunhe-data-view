@@ -11,8 +11,8 @@ export default {
   },
   watch: {
     chartOptions: {
-      handler () {
-        this.graph.setData(this.chartOptions)
+      handler (newV) {
+       newV && this.graph.setData(this.chartOptions)
       },
       deep: true
     }
@@ -45,6 +45,22 @@ export default {
     this.el.removeEventListener('resize', this.graph.resize)
     this.graph.destroy()
     this.graph = null
+    this.form = {
+        uscc: '',
+        name: '',
+        register_num: '',
+        establish_time: '',
+        register_capital: '',
+        scale: '',
+        manage_status: '',
+        register_authority: '',
+        business_scope: '',
+        address: '',
+        industry_code: '',
+        type_code: '',
+        status: 0,
+        owner_name: ''
+      }
   }
 }
 </script>
