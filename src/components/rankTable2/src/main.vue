@@ -71,9 +71,9 @@ export default {
   data () {
     return {
       rankIcons: [
-        require('./assets/rank-1.png'),
-        require('./assets/rank-2.png'),
-        require('./assets/rank-3.png')
+        require('../assets/rank-1.png'),
+        require('../assets/rank-2.png'),
+        require('../assets/rank-3.png')
       ]
     }
   }
