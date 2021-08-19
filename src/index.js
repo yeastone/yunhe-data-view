@@ -27,6 +27,7 @@ import radioButton5 from './components/radioButton5/index'
 import rankTable1 from './components/rankTable1/index'
 import rankTable2 from './components/rankTable2/index'
 import rankTable3 from './components/rankTable3/index'
+import rankTable4 from './components/rankTable4/index'
 import timeBox1 from './components/timeBox1/index'
 import titleHeader1 from './components/titleHeader1/index'
 import titleHeader2 from './components/titleHeader2/index'
@@ -60,6 +61,7 @@ export default function (Vue) {
   Vue.use(rankTable1)
   Vue.use(rankTable2)
   Vue.use(rankTable3)
+  Vue.use(rankTable4)
   Vue.use(timeBox1)
   Vue.use(titleHeader1)
   Vue.use(titleHeader2)

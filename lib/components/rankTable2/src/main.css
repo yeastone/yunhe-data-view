@@ -1,13 +1,13 @@
 .yh-rank-table-2 {
   width: 100%;
-  height: 100%;
-  overflow-y: scroll;
+  max-height: 100%;
+  overflow-y: auto;
 }
 .yh-rank-table-2 .yh-rank-table-2-content {
   position: relative;
   height: 100%;
   width: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   border-spacing: 0;
 }
 .yh-rank-table-2 .yh-rank-table-2-content thead {
@@ -33,7 +33,7 @@
   color: #0DFFFD;
   font-size: 14px;
 }
-.yh-rank-table-2 .yh-rank-table-2-content tbody .rate {
+.yh-rank-table-2 .yh-rank-table-2-content tbody .value {
   font-size: 16px;
   color: #B8C8EE;
   padding-right: 20px;
@@ -46,7 +46,7 @@
 .yh-rank-table-2 .yh-rank-table-2-content .index {
   width: 60px;
 }
-.yh-rank-table-2 .yh-rank-table-2-content .rate {
+.yh-rank-table-2 .yh-rank-table-2-content .value {
   width: 100px;
 }
 .yh-rank-table-2::-webkit-scrollbar {

@@ -3,7 +3,7 @@
 </template>
 <script>
 import Graph from './chart.js'
-import { uuid } from '../../../util/index.js'
+import { uuid, domResizeObserver } from '../../../util/index.js'
 export default {
   name: 'YhChartContent',
   props: {
@@ -23,7 +23,8 @@ export default {
       graph: '',
       ref: 'yh-chart-content',
       chartId: `yh-chart-content-${id}`,
-      el: null
+      el: null,
+      observer: null
     }
   },
   mounted () {
@@ -36,31 +37,16 @@ export default {
     },
     init () {
       this.el = document.getElementById(this.chartId)
+      this.observer = domResizeObserver(this.el,() => { this.graph.resize() })
       this.graph = new Graph(this.el)
       this.graph.setData(this.chartOptions)
-      this.el.addEventListener('resize', this.graph.resize)
     }
   },
   beforeDestroy () {
-    this.el.removeEventListener('resize', this.graph.resize)
+    this.observer.disconnect()
+    this.observer = {}
     this.graph.destroy()
     this.graph = null
-    this.form = {
-        uscc: '',
-        name: '',
-        register_num: '',
-        establish_time: '',
-        register_capital: '',
-        scale: '',
-        manage_status: '',
-        register_authority: '',
-        business_scope: '',
-        address: '',
-        industry_code: '',
-        type_code: '',
-        status: 0,
-        owner_name: ''
-      }
   }
 }
 </script>

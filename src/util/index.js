@@ -30,6 +30,13 @@ export function observerDomResize (dom, callback) {
   return observer
 }
 
+export function domResizeObserver (dom,callback){
+  const ResizeObserver = window.ResizeObserver || window.WebKitResizeObserver || window.MozResizeObserver
+  const observer = new ResizeObserver(callback)
+  observer.observe(dom)
+  return observer
+}
+
 export function getPointDistance (pointOne, pointTwo) {
   const minusX = Math.abs(pointOne[0] - pointTwo[0])
 

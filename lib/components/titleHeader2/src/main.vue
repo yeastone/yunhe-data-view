@@ -39,7 +39,7 @@
 import autoResize from '../../../mixin/autoResize'
 
 export default {
-  name: 'YhTitleHeader1',
+  name: 'YhTitleHeader2',
   mixins: [autoResize],
   props: {
     title: String

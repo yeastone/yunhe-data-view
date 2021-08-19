@@ -5,17 +5,17 @@
                 <tr>
                     <th class="index">序号</th>
                     <th class="name" align="left" >区域名称</th>
-                    <th class="rate">占比</th>
+                    <th class="value">占比</th>
                 </tr>
             </thead>
             <tbody>
                 <tr v-for="(item,index) in tableData" :key="item.name">
                     <td class="index">
-                      <img  class="rank-icon" v-if="index<3" :src="rankIcons[index]" alt="">
+                      <img  class="rank-icon" v-if="index < 3" :src="rankIcons[index]" alt="">
                       <span v-else> {{index + 1}}  </span>
                     </td>
                     <td class="name" align="left"> {{item.name}}</td>
-                    <td class="rate" align="right"> {{item.rate}}</td>
+                    <td class="value" align="right"> {{item.value + unit}}</td>
                 </tr>
             </tbody>
         </table>
@@ -29,43 +29,11 @@ export default {
     tableData: {
       type: Array,
       default: () => [
-        {
-          name: '绿城花园开始建立就拉萨建立设计到拉萨氪金大佬是来得及大酒店',
-          rate: '12.23%'
-        },
-        {
-          name: '星耀李1',
-          rate: '9.21%'
-        }, {
-          name: '绿城花园2',
-          rate: '12.23%'
-        },
-        {
-          name: '星耀李3',
-          rate: '9.21%'
-        }, {
-          name: '绿城花园4',
-          rate: '12.23%'
-        },
-        {
-          name: '星耀李5',
-          rate: '9.21%'
-        }, {
-          name: '绿城花园6',
-          rate: '12.23%'
-        },
-        {
-          name: '星耀李7',
-          rate: '9.21%'
-        }, {
-          name: '绿城花园8',
-          rate: '12.23%'
-        },
-        {
-          name: '星耀李9',
-          rate: '9.21%'
-        }
       ]
+    },
+    unit:{
+      type: String,
+      default:''
     }
   },
   data () {
@@ -82,14 +50,13 @@ export default {
 <style lang="less">
 .yh-rank-table-2 {
   width: 100%;
-  height: 100%;
-  overflow-y: scroll;
-
+  max-height: 100%;
+  overflow-y: auto;
   .yh-rank-table-2-content {
     position: relative;
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     border-spacing: 0;
     thead {
       background: rgba(15,84,98,0.52);
@@ -115,7 +82,7 @@ export default {
           color: #0DFFFD;
           font-size: 14px;
       }
-      .rate {
+      .value {
           font-size: 16px;
           color: #B8C8EE;
           padding-right: 20px;
@@ -132,7 +99,7 @@ export default {
       width: 60px;
 
     }
-    .rate {
+    .value {
       width: 100px;
     }
 
