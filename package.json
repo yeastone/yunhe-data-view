@@ -1,13 +1,13 @@
 {
   "name": "yunhe-data-view",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "description": "Yunhe FE Vue large screen data display component library",
   "main": "lib/index.js",
   "scripts": {
     "build": "node build/index.js",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s" 
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [
     "vue",
