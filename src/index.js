@@ -24,6 +24,7 @@ import radioButton2 from './components/radioButton2/index'
 import radioButton3 from './components/radioButton3/index'
 import radioButton4 from './components/radioButton4/index'
 import radioButton5 from './components/radioButton5/index'
+import radioButton6 from './components/radioButton6/index'
 import rankTable1 from './components/rankTable1/index'
 import rankTable2 from './components/rankTable2/index'
 import rankTable3 from './components/rankTable3/index'
@@ -58,6 +59,7 @@ export default function (Vue) {
   Vue.use(radioButton3)
   Vue.use(radioButton4)
   Vue.use(radioButton5)
+  Vue.use(radioButton6)
   Vue.use(rankTable1)
   Vue.use(rankTable2)
   Vue.use(rankTable3)
