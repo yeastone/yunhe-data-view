@@ -1,3 +1,12 @@
+## [0.0.43](https://github.com/yeastone/yunhe-data-view/compare/v0.0.42...v0.0.43) (2021-08-23)
+
+
+### Features
+
+* auto changelog ([316a3d5](https://github.com/yeastone/yunhe-data-view/commit/316a3d55fffc7de3e780d1185a6417397ec17922))
+
+
+
 ## 0.0.40 (2021-08-19)
 
 
