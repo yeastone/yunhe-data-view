@@ -1,3 +1,12 @@
+## [0.0.44](https://github.com/yeastone/yunhe-data-view/compare/v0.0.43...v0.0.44) (2021-08-23)
+
+
+### Features
+
+* add radioButton6 ([e05529f](https://github.com/yeastone/yunhe-data-view/commit/e05529f54aa1eec1efab2f5e77af607174f9f63d))
+
+
+
 ## [0.0.43](https://github.com/yeastone/yunhe-data-view/compare/v0.0.42...v0.0.43) (2021-08-23)
 
 
