@@ -1,3 +1,7 @@
+## [0.0.48](https://github.com/yeastone/yunhe-data-view/compare/v0.0.47...v0.0.48) (2021-09-06)
+
+
+
 ## [0.0.47](https://github.com/yeastone/yunhe-data-view/compare/v0.0.46...v0.0.47) (2021-09-06)
 
 
