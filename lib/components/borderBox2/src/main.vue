@@ -12,7 +12,7 @@
                 </filter>
             </defs>
             <g id="yh-border-box-2-decoration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="rect" opacity="1">
+                <g id="rect" opacity="0.7">
                     <use :fill="backgroundColor" fill-rule="evenodd" v-bind:xlink:href="`#${pathId}`"></use>
                     <use fill="black" fill-opacity="1" :filter="`url(#${filterId})`" v-bind:xlink:href="`#${pathId}`"></use>
                     <path stroke="#108FFF" stroke-width="1" :d="`M${width - 15},0.5 L${width - 0.5},16.5 L${width - 0.5},${height - 14} L${width - 14},${height - 0.5} L13.5,${height - 0.5} L0.5,${height - 14} L0.5,14 L14,0.5 L${width - 15},0.5 Z`" stroke-linejoin="square"></path>
@@ -37,7 +37,7 @@ export default {
   props: {
     backgroundColor: {
       type: String,
-      default: 'rgba(5,17,64,0.7)'
+      default: 'rgba(5,17,64,1)'
     }
   },
   data () {
