@@ -3,7 +3,7 @@
         <div class="bg"></div>
         <div class="bg-line"></div>
         <div class="location-body">
-            <img src="./images/location_icon.svg" class="location-icon">
+            <img @click="iconClick" src="./images/location_icon.svg" class="location-icon" />
                 <el-cascader
                 class="select-district location-name"
                 ref="yh-area-location-1-cascader"
@@ -46,6 +46,9 @@ export default {
     }
   },
   methods: {
+    iconClick() {
+      this.$emit("iconClick");
+    },
     districtChange (value) {
       this.$emit('districtChange', value)
       this.$refs['yh-area-location-1-cascader'].dropDownVisible = false
