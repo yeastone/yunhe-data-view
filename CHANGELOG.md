@@ -1,3 +1,12 @@
+## [0.0.47](https://github.com/yeastone/yunhe-data-view/compare/v0.0.46...v0.0.47) (2021-09-06)
+
+
+### Bug Fixes
+
+* area location add icon emit ([8f85148](https://github.com/yeastone/yunhe-data-view/commit/8f851482cb4f687ba42c9481d791c5d33808ab99))
+
+
+
 ## [0.0.46](https://github.com/yeastone/yunhe-data-view/compare/v0.0.45...v0.0.46) (2021-09-01)
 
 
