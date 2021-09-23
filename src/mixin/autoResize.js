@@ -1,4 +1,4 @@
-import { debounce, observerDomResize } from '../util/index'
+import { debounce, observerDomResize,domResizeObserver } from '../util/index'
 
 export default {
   data () {
@@ -55,7 +55,7 @@ export default {
     bindDomResizeCallback () {
       const { dom, debounceInitWHFun } = this
 
-      this.domObserver = observerDomResize(dom, debounceInitWHFun)
+      this.domObserver = domResizeObserver(dom, debounceInitWHFun)
 
       window.addEventListener('resize', debounceInitWHFun)
     },
