@@ -1,3 +1,12 @@
+## [0.0.50](https://github.com/yeastone/yunhe-data-view/compare/v0.0.49...v0.0.50) (2021-09-23)
+
+
+### Features
+
+* add scale & scale reserve ([d6bccf5](https://github.com/yeastone/yunhe-data-view/commit/d6bccf59d9e1c947999621459f698e306cda66da))
+
+
+
 ## [0.0.49](https://github.com/yeastone/yunhe-data-view/compare/v0.0.48...v0.0.49) (2021-09-23)
 
 
