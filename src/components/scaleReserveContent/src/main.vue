@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-import { debounce } from "../../..util/index.js";
+import { debounce } from "../../../util/index";
 export default {
   name: "YhScaleReserveContent",
   props: {
