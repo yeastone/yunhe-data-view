@@ -65,7 +65,7 @@ export default {
       if (!domObserver) return
 
       domObserver.disconnect()
-      domObserver.takeRecords()
+      // domObserver.takeRecords()
       domObserver = null
 
       window.removeEventListener('resize', debounceInitWHFun)
