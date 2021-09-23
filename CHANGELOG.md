@@ -1,3 +1,12 @@
+## [0.0.52](https://github.com/yeastone/yunhe-data-view/compare/v0.0.51...v0.0.52) (2021-09-23)
+
+
+### Bug Fixes
+
+* resizeOberver bug fixed ([2175b75](https://github.com/yeastone/yunhe-data-view/commit/2175b75a9e5bb26e3ba0072796d486986337299c))
+
+
+
 ## [0.0.51](https://github.com/yeastone/yunhe-data-view/compare/v0.0.50...v0.0.51) (2021-09-23)
 
 
