@@ -1,3 +1,12 @@
+## [0.0.51](https://github.com/yeastone/yunhe-data-view/compare/v0.0.50...v0.0.51) (2021-09-23)
+
+
+### Bug Fixes
+
+* scale util  import bug ([ff4a7bf](https://github.com/yeastone/yunhe-data-view/commit/ff4a7bf1509bf0ccde86bc45694e53c27366680c))
+
+
+
 ## [0.0.50](https://github.com/yeastone/yunhe-data-view/compare/v0.0.49...v0.0.50) (2021-09-23)
 
 
