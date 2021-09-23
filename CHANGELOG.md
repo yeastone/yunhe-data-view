@@ -1,3 +1,12 @@
+## [0.0.49](https://github.com/yeastone/yunhe-data-view/compare/v0.0.48...v0.0.49) (2021-09-23)
+
+
+### Features
+
+* change MutationObserver to resizeObserver ([47c185e](https://github.com/yeastone/yunhe-data-view/commit/47c185e7a910ca5c28373de1225fde73898afa71))
+
+
+
 ## [0.0.48](https://github.com/yeastone/yunhe-data-view/compare/v0.0.47...v0.0.48) (2021-09-06)
 
 
